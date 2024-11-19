@@ -1,0 +1,83 @@
+.outfits-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+  
+}
+
+.outfits-grid {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100vh;
+}
+
+.outfit-card {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  text-decoration: none; 
+}
+
+.outfit-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.outfit-card:hover .outfit-image {
+  transform: scale(1.1);
+}
+
+.outfit-details {
+  padding: 15px;
+}
+
+.outfit-details a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.outfit-details a:hover,
+.outfit-details a:focus {
+  text-decoration: none;
+  color: inherit; 
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+  .outfits-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .outfits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .outfits-grid {
+    grid-template-columns: 1fr;
+  }
+}
