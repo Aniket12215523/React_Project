@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import API from '../api/axiosConfig';
+import './Register.css'; // Assuming your styles are saved here
 
 const Register = () => {
   const [formData, setFormData] = useState({ name: '', email: '', password: '' });
@@ -18,7 +19,7 @@ const Register = () => {
   };
 
   return (
-    <div>
+    <div className="form-container">
       <h2>Register</h2>
       <form onSubmit={handleSubmit}>
         <input

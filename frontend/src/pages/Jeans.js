@@ -1,25 +1,41 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { products } from '../data/products';
+import { fetchAllProducts } from '../services/productService';
+import './CategoryPage.css'; 
 
-const JeansPage = () => {
+const JeansCategory = () => {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    const loadProducts = async () => {
+      try {
+        const data = await fetchAllProducts();
+        const jeansProducts = data.filter(product => product.category === 'jeans');
+        setProducts(jeansProducts);
+      } catch (error) {
+        console.error('Failed to fetch products:', error);
+      }
+    };
+    loadProducts();
+  }, []);
+
   return (
-    <div className="outfits-section">
-      <h2>Jeans Collection</h2>
-      <div className="outfits-grid">
-        {products.jeans.map((jean) => (
-          <Link to={`/jeans/${jean.id}`} key={jean.id} className="outfit-card">
-            <img src={jean.image} alt={jean.name} className="outfit-image" />
-            <div className="outfit-details">
-              <h3>{jean.name}</h3>
-              <p>{jean.description}</p>
-              <p><strong>₹{jean.price}</strong></p>
-            </div>
-          </Link>
+    <div className="category-container">
+      <h1 className="category-title">Jeans</h1>
+      <div className="product-grid">
+        {products.map(product => (
+          <div key={product.id} className="product-card">
+            <Link to={`/product/${product.id}`} className="product-link">
+            <img src={product.image} alt={product.name} className="product-image" />
+            <h2 className="product-name">{product.name}</h2>
+            <p className="product-price">${product.price}</p>
+            <p className="product-description">{product.description}</p>
+            </Link>
+          </div>
         ))}
       </div>
     </div>
   );
 };
 
-export default JeansPage;
+export default JeansCategory;

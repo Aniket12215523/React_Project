@@ -14,16 +14,17 @@ router.get('/', async (req, res) => {
 });
 
 // Get product by ID
-router.get('/:id', async (req, res) => {
+router.get('/api/products/:id', async (req, res) => {
   try {
-    const product = await Product.findById(req.params.id);
-    if (product) {
-      res.json(product);
-    } else {
-      res.status(404).json({ message: 'Product not found' });
+    const productId = req.params.id;
+    const product = await Product.findById(productId); // Mongoose query to find product by ID
+    if (!product) {
+      return res.status(404).json({ error: 'Product not found' });
     }
+    res.json(product);
   } catch (error) {
-    res.status(500).json({ message: 'Server error' });
+    console.error('Error fetching product:', error);
+    res.status(500).json({ error: 'Server error' });
   }
 });
 

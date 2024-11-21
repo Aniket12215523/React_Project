@@ -7,6 +7,7 @@ import './ProductDetail.css';
 
 const ProductDetail = () => {
   const { id } = useParams();
+  console.log(id); 
   const [product, setProduct] = useState(null);
   const { addToCart } = useCart();
   const [showAlert, setShowAlert] = useState(false);
@@ -23,6 +24,8 @@ const ProductDetail = () => {
     loadProduct();
   }, [id]);
 
+
+
   const handleAddToCart = () => {
     addToCart(product);
     setShowAlert(true);
@@ -32,7 +35,8 @@ const ProductDetail = () => {
     setShowAlert(false);
   };
 
-  if (!product) return <div>Loading...</div>;
+  if (!product) 
+    return <div>Loading...</div>;
 
   return (
     <div className="product-detail-container">

@@ -1,25 +1,41 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { fetchAllProducts } from '../services/productService';
 import { Link } from 'react-router-dom';
-import { products } from '../data/products';
+import './CategoryPage.css';
 
-const JacketsPage = () => {
+const JacketCategory = () => {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    const loadProducts = async () => {
+      try {
+        const data = await fetchAllProducts();
+        const jacketProducts = data.filter(product => product.category === 'jackets');
+        setProducts(jacketProducts);
+      } catch (error) {
+        console.error('Failed to fetch products:', error);
+      }
+    };
+    loadProducts();
+  }, []);
+
   return (
-    <div className="outfits-section">
-      <h2>Jacket Collection</h2>
-      <div className="outfits-grid">
-        {products.jackets.map((jacket) => (
-          <Link to={`/jackets/${jacket.id}`} key={jacket.id} className="outfit-card">
-            <img src={jacket.image} alt={jacket.name} className="outfit-image" />
-            <div className="outfit-details">
-              <h3>{jacket.name}</h3>
-              <p>{jacket.description}</p>
-              <p><strong>₹{jacket.price}</strong></p>
-            </div>
-          </Link>
+    <div className="category-container">
+      <h1 className="category-title">Jackets</h1>
+      <div className="product-grid">
+        {products.map(product => (
+          <div key={product.id} className="product-card">
+            <Link to={`/product/${product.id}`} className="product-link">
+            <img src={product.image} alt={product.name} className="product-image" />
+            <h2 className="product-name">{product.name}</h2>
+            <p className="product-price">${product.price}</p>
+            <p className="product-description">{product.description}</p>
+            </Link>
+          </div>
         ))}
       </div>
     </div>
   );
 };
 
-export default JacketsPage;
+export default JacketCategory;

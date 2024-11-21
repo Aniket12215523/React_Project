@@ -1,0 +1,539 @@
+[
+    {
+    "id": 1,
+    "name": "Blue Denim Jeans",
+    "image": "../images/jeans/jeans1.png",
+    "price": 129.99,
+    "description": "Classic blue denim jeans for all occasions.",
+    "isFeatured": true,
+    "category": "jeans"
+  },
+  {
+    "id": 2,
+    "name": "Black Slim Fit Jeans",
+    "image": "../images/jeans/jeans2.png",
+    "price": 129.99,
+    "description": "Slim fit black jeans for a sleek, stylish look.",
+    "isFeatured": false,
+    "category": "jeans"
+  },
+  {
+    "id": 3,
+    "name": "Ripped Jeans",
+    "image": "../images/jeans/jeans2.png",
+    "price": 129.99,
+    "description": "Trendy ripped jeans for a casual, street style.",
+    "isFeatured": true,
+    "category": "jeans"
+  },
+  {
+    "id": 4,
+    "name": "Grey Slim Fit Jeans",
+    "image": "../images/jeans/jeans2.png",
+    "price": 129.99,
+    "description": "Classic grey slim fit jeans that go with everything.",
+    "isFeatured": false,
+    "category": "jeans"
+  },
+  {
+    "id": 5,
+    "name": "Chinos",
+    "image": "../images/jeans/jeans2.png",
+    "price": 129.99,
+    "description": "Chino-style pants with a clean, formal look.",
+    "isFeatured": false,
+    "category": "jeans"
+  },
+  {
+    "id": 6,
+    "name": "Bootcut Jeans",
+    "image": "../images/jeans/jeans2.png",
+    "price": 129.99,
+    "description": "Bootcut jeans for a more relaxed and comfortable fit.",
+    "isFeatured": false,
+    "category": "jeans"
+  },
+  {
+    "id": 7,
+    "name": "Light Wash Denim",
+    "image": "../images/jeans/jeans2.png",
+    "price": 129.99,
+    "description": "Casual light wash denim perfect for sunny days.",
+    "isFeatured": false,
+    "category": "jeans"
+  },
+  {
+    "id": 8,
+    "name": "Dark Indigo Jeans",
+    "image": "../images/jeans/jeans2.png",
+    "price": 129.99,
+    "description": "Rich dark indigo denim with a clean, polished look.",
+    "isFeatured": false,
+    "category": "jeans"
+  },
+  {
+    "id": 9,
+    "name": "Skinny Fit Jeans",
+    "image": "../images/jeans/jeans2.png",
+    "price": 129.99,
+    "description": "Form-fitting jeans for a modern, sharp look.",
+    "isFeatured": false,
+    "category": "jeans"
+  },
+  {
+    "id": 10,
+    "name": "Stretch Denim Jeans",
+    "image": "../images/jeans/jeans2.png",
+    "price": 129.99,
+    "description": "Stretch denim jeans for extra comfort and mobility.",
+    "isFeatured": false,
+    "category": "jeans"
+  },
+  {
+    "id": 11,
+    "name": "Distressed Jeans",
+    "image": "../images/jeans/jeans2.png",
+    "price": 129.99,
+    "description": "Stylish distressed denim for a rugged look.",
+    "isFeatured": false,
+    "category": "jeans"
+  },
+  {
+    "id": 12,
+    "name": "Tapered Fit Jeans",
+    "image": "../images/jeans/jeans2.png",
+    "price": 129.99,
+    "description": "Tapered fit jeans for a trendy, tailored silhouette.",
+    "isFeatured": false,
+    "category": "jeans"
+  },
+  {
+    "id": 13,
+    "name": "Cargo Jeans",
+    "image": "../images/jeans/jeans2.png",
+    "price": 129.99,
+    "description": "Comfortable cargo jeans with extra pockets.",
+    "isFeatured": false,
+    "category": "jeans"
+  },
+  {
+    "id": 14,
+    "name": "High Rise Jeans",
+    "image": "../images/jeans/jeans2.png",
+    "price": 129.99,
+    "description": "High-rise jeans with a flattering waistline.",
+    "isFeatured": false,
+    "category": "jeans"
+  },
+  {
+    "id": 15,
+    "name": "Slim Fit Stretch Jeans",
+    "image": "../images/jeans/jeans2.png",
+    "price": 129.99,
+    "description": "Slim fit stretch jeans for a comfortable and modern look.",
+    "isFeatured": false,
+    "category": "jeans"
+  },
+  {
+    "id": 16,
+    "name": "Basic White T-shirt",
+    "image": "../images/tshirts/tshirt1.jpg",
+    "price": 29.99,
+    "description": "Comfortable white t-shirt for casual wear.",
+    "isFeatured": false,
+    "category": "tshirts"
+  },
+  {
+    "id": 17,
+    "name": "Graphic Tee",
+    "image": "../images/tshirts/tshirt1.jpg",
+    "price": 39.99,
+    "description": "Graphic print t-shirt for a bold look.",
+    "isFeatured": false,
+    "category": "tshirts"
+  },
+  {
+    "id": 18,
+    "name": "Slim Fit White Shirt",
+    "image": "../images/shirts/shirt1.jpg",
+    "price": 49.99,
+    "description": "Slim fit white shirt for a sharp and professional look.",
+    "isFeatured": true,
+    "category": "shirts"
+  },
+  {
+    "id": 19,
+    "name": "Blue Checkered Shirt",
+    "image": "../images/shirts/shirt2.jpg",
+    "price": 49.99,
+    "description": "Casual blue checkered shirt perfect for weekend wear.",
+    "isFeatured": false,
+    "category": "shirts"
+  },
+  {
+    "id": 20,
+    "name": "Black Formal Shirt",
+    "image": "../images/shirts/shirt3.jpg",
+    "price": 59.99,
+    "description": "Formal black shirt for business meetings.",
+    "isFeatured": true,
+    "category": "shirts"
+  },
+  {
+    "id": 21,
+    "name": "Grey Button-Up Shirt",
+    "image": "../images/shirts/shirt4.jpg",
+    "price": 45.99,
+    "description": "Stylish grey button-up shirt for formal events.",
+    "isFeatured": false,
+    "category": "shirts"
+  },
+  {
+    "id": 22,
+    "name": "V-neck T-shirt",
+    "image": "../images/tshirts/tshirt2.jpg",
+    "price": 35.99,
+    "description": "Comfortable V-neck t-shirt for a laid-back style.",
+    "isFeatured": false,
+    "category": "tshirts"
+  },
+  {
+    "id": 23,
+    "name": "Hooded Sweatshirt",
+    "image": "../images/sweatshirts/sweatshirt1.jpg",
+    "price": 69.99,
+    "description": "Warm hooded sweatshirt for cold weather.",
+    "isFeatured": true,
+    "category": "sweatshirts"
+  },
+  {
+    "id": 24,
+    "name": "Zip-up Hoodie",
+    "image": "../images/sweatshirts/sweatshirt2.jpg",
+    "price": 75.99,
+    "description": "Zip-up hoodie for a casual and stylish look.",
+    "isFeatured": false,
+    "category": "sweatshirts"
+  },
+  {
+    "id": 25,
+    "name": "Polo Shirt",
+    "image": "../images/shirts/shirt5.jpg",
+    "price": 45.99,
+    "description": "Classic polo shirt for casual outings.",
+    "isFeatured": false,
+    "category": "shirts"
+  },
+  {
+    "id": 26,
+    "name": "Denim Jacket",
+    "image": "../images/jackets/jacket1.jpg",
+    "price": 89.99,
+    "description": "Stylish denim jacket for layering in colder months.",
+    "isFeatured": true,
+    "category": "jackets"
+  },
+  {
+    "id": 27,
+    "name": "Leather Jacket",
+    "image": "../images/jackets/jacket2.jpg",
+    "price": 149.99,
+    "description": "Premium leather jacket for a timeless look.",
+    "isFeatured": true,
+    "category": "jackets"
+  },
+  {
+    "id": 28,
+    "name": "Bomber Jacket",
+    "image": "../images/jackets/jacket3.jpg",
+    "price": 129.99,
+    "description": "Trendy bomber jacket for a cool street style.",
+    "isFeatured": false,
+    "category": "jackets"
+  },
+  {
+    "id": 29,
+    "name": "Winter Parka",
+    "image": "../images/jackets/jacket4.jpg",
+    "price": 179.99,
+    "description": "Insulated winter parka for extreme cold conditions.",
+    "isFeatured": false,
+    "category": "jackets"
+  },
+  {
+    "id": 30,
+    "name": "Field Jacket",
+    "image": "../images/jackets/jacket5.jpg",
+    "price": 139.99,
+    "description": "Versatile field jacket with plenty of pockets.",
+    "isFeatured": false,
+    "category": "jackets"
+  },
+  {
+    "id": 31,
+    "name": "Red Casual Jacket",
+    "image": "../images/jackets/jacket6.jpg",
+    "price": 99.99,
+    "description": "Casual red jacket for a bold, statement look.",
+    "isFeatured": false,
+    "category": "jackets"
+  },
+  {
+    "id": 32,
+    "name": "Fleece Jacket",
+    "image": "../images/jackets/jacket7.jpg",
+    "price": 89.99,
+    "description": "Soft fleece jacket for warmth and comfort.",
+    "isFeatured": false,
+    "category": "jackets"
+  },
+  {
+    "id": 33,
+    "name": "Quilted Jacket",
+    "image": "../images/jackets/jacket8.jpg",
+    "price": 119.99,
+    "description": "Lightweight quilted jacket for extra warmth.",
+    "isFeatured": false,
+    "category": "jackets"
+  },
+  {
+    "id": 34,
+    "name": "Windbreaker",
+    "image": "../images/jackets/jacket9.jpg",
+    "price": 79.99,
+    "description": "Windbreaker jacket for protection against the elements.",
+    "isFeatured": false,
+    "category": "jackets"
+  },
+  {
+    "id": 35,
+    "name": "Track Jacket",
+    "image": "../images/jackets/jacket10.jpg",
+    "price": 69.99,
+    "description": "Sporty track jacket for an athletic look.",
+    "isFeatured": false,
+    "category": "jackets"
+  },
+  {
+    "id": 36,
+    "name": "Slim Fit Chinos",
+    "image": "../images/jeans/jeans2.png",
+    "price": 59.99,
+    "description": "Slim fit chinos with a polished look.",
+    "isFeatured": false,
+    "category": "jeans"
+  },
+  {
+    "id": 37,
+    "name": "Classic Navy T-shirt",
+    "image": "../images/tshirts/tshirt2.jpg",
+    "price": 39.99,
+    "description": "Navy t-shirt for everyday wear.",
+    "isFeatured": false,
+    "category": "tshirts"
+  },
+  {
+    "id": 38,
+    "name": "Striped Shirt",
+    "image": "../images/shirts/shirt3.jpg",
+    "price": 54.99,
+    "description": "Casual striped shirt for a nautical look.",
+    "isFeatured": false,
+    "category": "shirts"
+  },
+  {
+    "id": 39,
+    "name": "Short Sleeve Shirt",
+    "image": "../images/shirts/shirt4.jpg",
+    "price": 39.99,
+    "description": "Short sleeve shirt for warm weather.",
+    "isFeatured": false,
+    "category": "shirts"
+  },
+  {
+    "id": 40,
+    "name": "Tropical Print Shirt",
+    "image": "../images/shirts/shirt5.jpg",
+    "price": 49.99,
+    "description": "Tropical print shirt for a fun, vacation vibe.",
+    "isFeatured": false,
+    "category": "shirts"
+  },
+  {
+    "id": 41,
+    "name": "Sweater",
+    "image": "../images/sweatshirts/sweatshirt1.jpg",
+    "price": 49.99,
+    "description": "Warm sweater for layering in cooler weather.",
+    "isFeatured": false,
+    "category": "sweatshirts"
+  },
+  {
+    "id": 42,
+    "name": "Turtleneck Sweater",
+    "image": "../images/sweatshirts/sweatshirt2.jpg",
+    "price": 69.99,
+    "description": "Cozy turtleneck sweater for a classic look.",
+    "isFeatured": false,
+    "category": "sweatshirts"
+  },
+  {
+    "id": 43,
+    "name": "Heavy Duty Sweatshirt",
+    "image": "../images/sweatshirts/sweatshirt3.jpg",
+    "price": 89.99,
+    "description": "Heavy-duty sweatshirt for intense cold weather.",
+    "isFeatured": false,
+    "category": "sweatshirts"
+  },
+  {
+    "id": 44,
+    "name": "Athletic Sweatshirt",
+    "image": "../images/sweatshirts/sweatshirt4.jpg",
+    "price": 79.99,
+    "description": "Athletic sweatshirt for a sporty and active look.",
+    "isFeatured": false,
+    "category": "sweatshirts"
+  },
+  {
+    "id": 45,
+    "name": "Jogger Sweatpants",
+    "image": "../images/sweatshirts/sweatshirt5.jpg",
+    "price": 59.99,
+    "description": "Comfortable jogger sweatpants for relaxed wear.",
+    "isFeatured": false,
+    "category": "sweatshirts"
+  },
+  {
+    "id": 46,
+    "name": "Slim Fit Bomber Jacket",
+    "image": "../images/jackets/jacket2.jpg",
+    "price": 129.99,
+    "description": "Slim fit bomber jacket for a contemporary look.",
+    "isFeatured": false,
+    "category": "jackets"
+  },
+  {
+    "id": 47,
+    "name": "Double-breasted Peacoat",
+    "image": "../images/jackets/jacket3.jpg",
+    "price": 149.99,
+    "description": "Classic double-breasted peacoat for warmth and style.",
+    "isFeatured": false,
+    "category": "jackets"
+  },
+  {
+    "id": 48,
+    "name": "Casual Blazer",
+    "image": "../images/jackets/jacket4.jpg",
+    "price": 179.99,
+    "description": "Casual blazer for a smart-casual style.",
+    "isFeatured": false,
+    "category": "jackets"
+  },
+  {
+    "id": 49,
+    "name": "Winter Vest",
+    "image": "../images/jackets/jacket5.jpg",
+    "price": 119.99,
+    "description": "Winter vest for extra warmth in cold weather.",
+    "isFeatured": false,
+    "category": "jackets"
+  },
+  {
+    "id": 50,
+    "name": "Puffer Jacket",
+    "image": "../images/jackets/jacket6.jpg",
+    "price": 139.99,
+    "description": "Lightweight puffer jacket for warmth without bulk.",
+    "isFeatured": false,
+    "category": "jackets"
+  },
+  {
+    "id": 51,
+    "name": "Plaid Shirt",
+    "image": "../images/shirts/shirt1.jpg",
+    "price": 45.99,
+    "description": "Casual plaid shirt for easy-going days.",
+    "isFeatured": false,
+    "category": "shirts"
+  },
+  {
+    "id": 52,
+    "name": "Linen Shirt",
+    "image": "../images/shirts/shirt2.jpg",
+    "price": 49.99,
+    "description": "Cool and breathable linen shirt for warm days.",
+    "isFeatured": false,
+    "category": "shirts"
+  },
+  {
+    "id": 53,
+    "name": "Flannel Shirt",
+    "image": "../images/shirts/shirt3.jpg",
+    "price": 39.99,
+    "description": "Flannel shirt for a cozy, autumn feel.",
+    "isFeatured": false,
+    "category": "shirts"
+  },
+  {
+    "id": 54,
+    "name": "Long Sleeve Henley",
+    "image": "../images/shirts/shirt4.jpg",
+    "price": 49.99,
+    "description": "Long sleeve Henley shirt for casual layering.",
+    "isFeatured": false,
+    "category": "shirts"
+  },
+  {
+    "id": 55,
+    "name": "Basic Black T-shirt",
+    "image": "../images/tshirts/tshirt1.jpg",
+    "price": 29.99,
+    "description": "Classic black t-shirt for any casual occasion.",
+    "isFeatured": false,
+    "category": "tshirts"
+  },
+  {
+    "id": 56,
+    "name": "Grey V-neck Tee",
+    "image": "../images/tshirts/tshirt2.jpg",
+    "price": 34.99,
+    "description": "Simple grey V-neck t-shirt for easy styling.",
+    "isFeatured": false,
+    "id": 57,
+    "name": "Denim Shirt",
+    "image": "../images/shirts/shirt5.jpg",
+    "price": 59.99,
+    "description": "Classic denim shirt for a timeless look.",
+    "isFeatured": false,
+    "category": "shirts"
+  },
+  {
+    "id": 58,
+    "name": "Slim Fit Chinos",
+    "image": "../images/jeans/jeans1.jpg",
+    "price": 59.99,
+    "description": "Slim fit chinos with a polished look.",
+    "isFeatured": false,
+    "category": "jeans"
+  },
+  {
+    "id": 59,
+    "name": "Classic Navy Blazer",
+    "image": "../images/jackets/jacket1.jpg",
+    "price": 129.99,
+    "description": "Classic navy blazer for formal and smart-casual occasions.",
+    "isFeatured": false,
+    "category": "jackets"
+  },
+  {
+    "id": 60,
+    "name": "Winter Cardigan",
+    "image": "../images/sweatshirts/sweatshirt6.jpg",
+    "price": 69.99,
+    "description": "Soft, warm winter cardigan for cozy layering.",
+    "isFeatured": false,
+    "category": "sweatshirts"
+  }
+]
