@@ -8,7 +8,7 @@ const Header=()=>{
 
   return (
     <header className='header'>
-      <h1>Clothing Brand</h1>
+      <h1>Sapna Sopie</h1>
       <nav>
         <ul>
           <li className='nav-links'><Link to="/">Home</Link></li>

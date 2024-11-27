@@ -1,0 +1,708 @@
+[{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecab"
+  },
+  "id": 1,
+  "name": "Blue Denim Jeans",
+  "image": "https://static.zara.net/assets/public/8df1/cfd9/b3e845bc80a7/0c3a806f0282/00774330427-p/00774330427-p.jpg?ts=1723557526316&w=563",
+  "price": 129,
+  "description": "Classic blue denim jeans for all occasions.",
+  "isFeatured": true,
+  "category": "jeans"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecac"
+  },
+  "id": 2,
+  "name": "Black Slim Fit Jeans",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq3nEXaZvdVOmV_FmsFiCWYZPDCPVvV63UVQ&s",
+  "price": 159,
+  "description": "Slim fit black jeans for a sleek, stylish look.",
+  "isFeatured": false,
+  "category": "jeans"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecad"
+  },
+  "id": 3,
+  "name": "Ripped Jeans",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtz1w53f2ri-14rmAR6W4RmEhOTa2Uq7b2LA&s",
+  "price": 340,
+  "description": "Trendy ripped jeans for a casual, street style.",
+  "isFeatured": true,
+  "category": "jeans"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecae"
+  },
+  "id": 4,
+  "name": "Baggy Jeans",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsSq3rVJ9ES98gafOa_r1tOG9q23Ay6VLtLA&s",
+  "price": 210,
+  "description": "Classic grey slim fit jeans that go with everything.",
+  "isFeatured": false,
+  "category": "jeans"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecaf"
+  },
+  "id": 5,
+  "name": "Chinos",
+  "image": "https://assets.ajio.com/medias/sys_master/root/20230901/jPf9/64f1f6f7afa4cf41f59d54fd/-473Wx593H-469537893-darkindigo-MODEL.jpg",
+  "price": 180,
+  "description": "Chino-style pants with a clean, formal look.",
+  "isFeatured": false,
+  "category": "jeans"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecb0"
+  },
+  "id": 6,
+  "name": "Bootcut Jeans",
+  "image": "data:image/jpeg;base64,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",
+  "price": 199,
+  "description": "Bootcut jeans for a more relaxed and comfortable fit.",
+  "isFeatured": false,
+  "category": "jeans"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecb1"
+  },
+  "id": 7,
+  "name": "Light Wash Denim",
+  "image": "data:image/jpeg;base64,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",
+  "price": 169,
+  "description": "Casual light wash denim perfect for sunny days.",
+  "isFeatured": false,
+  "category": "jeans"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecb2"
+  },
+  "id": 8,
+  "name": "Dark Indigo Jeans",
+  "image": "https://levi.in/cdn/shop/files/236770314_02_Front_8c32557a-5565-4d90-a7d7-d471839ac35a.jpg?v=1712743028&width=1445",
+  "price": 560,
+  "description": "Rich dark indigo denim with a clean, polished look.",
+  "isFeatured": false,
+  "category": "jeans"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecb3"
+  },
+  "id": 9,
+  "name": "Skinny Fit Jeans",
+  "image": "https://levi.in/cdn/shop/files/236770314_02_Front_8c32557a-5565-4d90-a7d7-d471839ac35a.jpg?v=1712743028&width=1445",
+  "price": 420,
+  "description": "Form-fitting jeans for a modern, sharp look.",
+  "isFeatured": false,
+  "category": "jeans"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecb4"
+  },
+  "id": 10,
+  "name": "Stretch Denim Jeans",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnfLcIQRZsp-nQF3CXkyjrlXHXBaHG9jdYFg&s",
+  "price": 179,
+  "description": "Stretch denim jeans for extra comfort and mobility.",
+  "isFeatured": false,
+  "category": "jeans"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecb5"
+  },
+  "id": 11,
+  "name": "Distressed Jeans",
+  "image": "data:image/jpeg;base64,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",
+  "price": 175,
+  "description": "Stylish distressed denim for a rugged look.",
+  "isFeatured": false,
+  "category": "jeans"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecb6"
+  },
+  "id": 12,
+  "name": "Tapered Fit Jeans",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS9LQLJuIweu9E3cJFDeT9ATEIWd1TTFWOWg&s",
+  "price": 421,
+  "description": "Tapered fit jeans for a trendy, tailored silhouette.",
+  "isFeatured": false,
+  "category": "jeans"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecb7"
+  },
+  "id": 13,
+  "name": "Cargo Jeans",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4OPm2Qe7Y3yZXTSGZU8EwGwsL8wZwinsk_A&s",
+  "price": 192,
+  "description": "Comfortable cargo jeans with extra pockets.",
+  "isFeatured": false,
+  "category": "jeans"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecb8"
+  },
+  "id": 14,
+  "name": "High Rise Jeans",
+  "image": "https://imagescdn.vanheusenindia.com/img/app/product/8/868945-10321366.jpg?auto=format&w=390",
+  "price": 321,
+  "description": "High-rise jeans with a flattering waistline.",
+  "isFeatured": false,
+  "category": "jeans"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecb9"
+  },
+  "id": 15,
+  "name": "Slim Fit Stretch Jeans",
+  "image": "https://static.aceomni.cmsaceturtle.com/prod/product-image/aceomni/Wrangler/Monobrand/WMJN006864/WMJN006864_1.jpg",
+  "price": 421,
+  "description": "Slim fit stretch jeans for a comfortable and modern look.",
+  "isFeatured": false,
+  "category": "jeans"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecba"
+  },
+  "id": 16,
+  "name": "Basic White T-shirt",
+  "image": "https://i.pinimg.com/236x/ef/90/6e/ef906eb62793f5cce5da38e514ac9282.jpg",
+  "price": 450,
+  "description": "Comfortable white t-shirt for casual wear.",
+  "isFeatured": false,
+  "category": "tshirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecbb"
+  },
+  "id": 17,
+  "name": "Graphic Tee",
+  "image": "https://i.pinimg.com/enabled_lo_mid/236x/1c/82/3f/1c823f36c1044efd4481fd236db3df1c.jpg",
+  "price": 320,
+  "description": "Graphic print t-shirt for a bold look.",
+  "isFeatured": false,
+  "category": "tshirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecbc"
+  },
+  "id": 18,
+  "name": "Slim Fit White Shirt",
+  "image": "https://i.pinimg.com/236x/ef/90/6e/ef906eb62793f5cce5da38e514ac9282.jpg",
+  "price": 162,
+  "description": "Slim fit white shirt for a sharp and professional look.",
+  "isFeatured": true,
+  "category": "tshirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecbd"
+  },
+  "id": 19,
+  "name": "Blue Checkered Shirt",
+  "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS7SROe6sYof7OkWYL2bZ6MHZ-kNrLqVKH3YnHvu97hNOsJOBBtxlZbOPjU7TIQYuh9zPuaeIfpgKSytkZbQonWogKwlDZENGSBp_61f34&usqp=CAE",
+  "price": 221,
+  "description": "Casual blue checkered shirt perfect for weekend wear.",
+  "isFeatured": false,
+  "category": "shirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecbe"
+  },
+  "id": 20,
+  "name": "Black Formal Shirt",
+  "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS7SROe6sYof7OkWYL2bZ6MHZ-kNrLqVKH3YnHvu97hNOsJOBBtxlZbOPjU7TIQYuh9zPuaeIfpgKSytkZbQonWogKwlDZENGSBp_61f34&usqp=CAE",
+  "price": 59.99,
+  "description": "Formal black shirt for business meetings.",
+  "isFeatured": true,
+  "category": "shirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecbf"
+  },
+  "id": 21,
+  "name": "Grey Button-Up Shirt",
+  "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS7SROe6sYof7OkWYL2bZ6MHZ-kNrLqVKH3YnHvu97hNOsJOBBtxlZbOPjU7TIQYuh9zPuaeIfpgKSytkZbQonWogKwlDZENGSBp_61f34&usqp=CAE",
+  "price": 45.99,
+  "description": "Stylish grey button-up shirt for formal events.",
+  "isFeatured": false,
+  "category": "shirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecc0"
+  },
+  "id": 22,
+  "name": "V-neck T-shirt",
+  "image": "https://i.pinimg.com/236x/e6/04/cd/e604cdba910cc9551b63a2ded0768baa.jpg",
+  "price": 35.99,
+  "description": "Comfortable V-neck t-shirt for a laid-back style.",
+  "isFeatured": false,
+  "category": "tshirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecc1"
+  },
+  "id": 23,
+  "name": "Hooded tshirt",
+  "image": "https://i.pinimg.com/236x/e6/04/cd/e604cdba910cc9551b63a2ded0768baa.jpg",
+  "price": 69.99,
+  "description": "Warm hooded sweatshirt for cold weather.",
+  "isFeatured": true,
+  "category": "tshirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecc2"
+  },
+  "id": 24,
+  "name": "half-tshirt",
+  "image": "https://i.pinimg.com/236x/0b/85/8c/0b858c6ffcda17383a8b39393121574a.jpg",
+  "price": 75.99,
+  "description": "Zip-up tshirt for a casual and stylish look.",
+  "isFeatured": false,
+  "category": "tshirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecc3"
+  },
+  "id": 25,
+  "name": "Polo Shirt",
+  "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR7q7Ev_aupuPuMxwDIieRIGDVnJnrSEAJFw7g5IbnZOT79DOuCQraLEmev9w60zXNsC8fdqX6JNfyZY2k21Z2Nymi2VxoFKbELd-NXR-8&usqp=CAE",
+  "price": 45.99,
+  "description": "Classic polo shirt for casual outings.",
+  "isFeatured": false,
+  "category": "shirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecc4"
+  },
+  "id": 26,
+  "name": "Denim Jacket",
+  "image": "../images/jackets/jacket1.jpg",
+  "price": 89.99,
+  "description": "Stylish denim jacket for layering in colder months.",
+  "isFeatured": true,
+  "category": "jackets"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecc5"
+  },
+  "id": 27,
+  "name": "Leather Jacket",
+  "image": "../images/jackets/jacket2.jpg",
+  "price": 149.99,
+  "description": "Premium leather jacket for a timeless look.",
+  "isFeatured": true,
+  "category": "jackets"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecc6"
+  },
+  "id": 28,
+  "name": "Bomber Jacket",
+  "image": "../images/jackets/jacket3.jpg",
+  "price": 129.99,
+  "description": "Trendy bomber jacket for a cool street style.",
+  "isFeatured": false,
+  "category": "jackets"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecc7"
+  },
+  "id": 29,
+  "name": "Winter Parka",
+  "image": "../images/jackets/jacket4.jpg",
+  "price": 179.99,
+  "description": "Insulated winter parka for extreme cold conditions.",
+  "isFeatured": false,
+  "category": "jackets"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecc8"
+  },
+  "id": 30,
+  "name": "Field Jacket",
+  "image": "../images/jackets/jacket5.jpg",
+  "price": 139.99,
+  "description": "Versatile field jacket with plenty of pockets.",
+  "isFeatured": false,
+  "category": "jackets"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecc9"
+  },
+  "id": 31,
+  "name": "Red Casual Jacket",
+  "image": "../images/jackets/jacket6.jpg",
+  "price": 99.99,
+  "description": "Casual red jacket for a bold, statement look.",
+  "isFeatured": false,
+  "category": "jackets"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecca"
+  },
+  "id": 32,
+  "name": "Fleece Jacket",
+  "image": "../images/jackets/jacket7.jpg",
+  "price": 89.99,
+  "description": "Soft fleece jacket for warmth and comfort.",
+  "isFeatured": false,
+  "category": "jackets"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7eccb"
+  },
+  "id": 33,
+  "name": "Quilted Jacket",
+  "image": "../images/jackets/jacket8.jpg",
+  "price": 119.99,
+  "description": "Lightweight quilted jacket for extra warmth.",
+  "isFeatured": false,
+  "category": "jackets"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7eccc"
+  },
+  "id": 34,
+  "name": "Windbreaker",
+  "image": "../images/jackets/jacket9.jpg",
+  "price": 79.99,
+  "description": "Windbreaker jacket for protection against the elements.",
+  "isFeatured": false,
+  "category": "jackets"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7eccd"
+  },
+  "id": 35,
+  "name": "Track Jacket",
+  "image": "../images/jackets/jacket10.jpg",
+  "price": 69.99,
+  "description": "Sporty track jacket for an athletic look.",
+  "isFeatured": false,
+  "category": "jackets"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecce"
+  },
+  "id": 36,
+  "name": "Slim Fit Chinos",
+  "image": "../images/jeans/jeans2.png",
+  "price": 59.99,
+  "description": "Slim fit chinos with a polished look.",
+  "isFeatured": false,
+  "category": "jeans"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7eccf"
+  },
+  "id": 37,
+  "name": "Classic Navy T-shirt",
+  "image": "../images/tshirts/tshirt2.jpg",
+  "price": 39.99,
+  "description": "Navy t-shirt for everyday wear.",
+  "isFeatured": false,
+  "category": "tshirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecd0"
+  },
+  "id": 38,
+  "name": "Striped Shirt",
+  "image": "../images/shirts/shirt3.jpg",
+  "price": 54.99,
+  "description": "Casual striped shirt for a nautical look.",
+  "isFeatured": false,
+  "category": "shirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecd1"
+  },
+  "id": 39,
+  "name": "Short Sleeve Shirt",
+  "image": "../images/shirts/shirt4.jpg",
+  "price": 39.99,
+  "description": "Short sleeve shirt for warm weather.",
+  "isFeatured": false,
+  "category": "shirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecd2"
+  },
+  "id": 40,
+  "name": "Tropical Print Shirt",
+  "image": "../images/shirts/shirt5.jpg",
+  "price": 49.99,
+  "description": "Tropical print shirt for a fun, vacation vibe.",
+  "isFeatured": false,
+  "category": "shirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecd3"
+  },
+  "id": 41,
+  "name": "Sweater",
+  "image": "../images/sweatshirts/sweatshirt1.jpg",
+  "price": 49.99,
+  "description": "Warm sweater for layering in cooler weather.",
+  "isFeatured": false,
+  "category": "sweatshirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecd4"
+  },
+  "id": 42,
+  "name": "Turtleneck Sweater",
+  "image": "../images/sweatshirts/sweatshirt2.jpg",
+  "price": 69.99,
+  "description": "Cozy turtleneck sweater for a classic look.",
+  "isFeatured": false,
+  "category": "sweatshirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecd5"
+  },
+  "id": 43,
+  "name": "Heavy Duty Sweatshirt",
+  "image": "../images/sweatshirts/sweatshirt3.jpg",
+  "price": 89.99,
+  "description": "Heavy-duty sweatshirt for intense cold weather.",
+  "isFeatured": false,
+  "category": "sweatshirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecd6"
+  },
+  "id": 44,
+  "name": "Athletic Sweatshirt",
+  "image": "../images/sweatshirts/sweatshirt4.jpg",
+  "price": 79.99,
+  "description": "Athletic sweatshirt for a sporty and active look.",
+  "isFeatured": false,
+  "category": "sweatshirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecd7"
+  },
+  "id": 45,
+  "name": "Jogger Sweatpants",
+  "image": "../images/sweatshirts/sweatshirt5.jpg",
+  "price": 59.99,
+  "description": "Comfortable jogger sweatpants for relaxed wear.",
+  "isFeatured": false,
+  "category": "sweatshirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecd8"
+  },
+  "id": 46,
+  "name": "Slim Fit Bomber Jacket",
+  "image": "../images/jackets/jacket2.jpg",
+  "price": 129.99,
+  "description": "Slim fit bomber jacket for a contemporary look.",
+  "isFeatured": false,
+  "category": "jackets"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecd9"
+  },
+  "id": 47,
+  "name": "Double-breasted Peacoat",
+  "image": "../images/jackets/jacket3.jpg",
+  "price": 149.99,
+  "description": "Classic double-breasted peacoat for warmth and style.",
+  "isFeatured": false,
+  "category": "jackets"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecda"
+  },
+  "id": 48,
+  "name": "Casual Blazer",
+  "image": "../images/jackets/jacket4.jpg",
+  "price": 179.99,
+  "description": "Casual blazer for a smart-casual style.",
+  "isFeatured": false,
+  "category": "jackets"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecdb"
+  },
+  "id": 49,
+  "name": "Winter Vest",
+  "image": "../images/jackets/jacket5.jpg",
+  "price": 119.99,
+  "description": "Winter vest for extra warmth in cold weather.",
+  "isFeatured": false,
+  "category": "jackets"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecdc"
+  },
+  "id": 50,
+  "name": "Puffer Jacket",
+  "image": "../images/jackets/jacket6.jpg",
+  "price": 139.99,
+  "description": "Lightweight puffer jacket for warmth without bulk.",
+  "isFeatured": false,
+  "category": "jackets"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecdd"
+  },
+  "id": 51,
+  "name": "Plaid Shirt",
+  "image": "../images/shirts/shirt1.jpg",
+  "price": 45.99,
+  "description": "Casual plaid shirt for easy-going days.",
+  "isFeatured": false,
+  "category": "shirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecde"
+  },
+  "id": 52,
+  "name": "Linen Shirt",
+  "image": "../images/shirts/shirt2.jpg",
+  "price": 49.99,
+  "description": "Cool and breathable linen shirt for warm days.",
+  "isFeatured": false,
+  "category": "shirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ecdf"
+  },
+  "id": 53,
+  "name": "Flannel Shirt",
+  "image": "../images/shirts/shirt3.jpg",
+  "price": 39.99,
+  "description": "Flannel shirt for a cozy, autumn feel.",
+  "isFeatured": false,
+  "category": "shirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ece0"
+  },
+  "id": 54,
+  "name": "Long Sleeve Henley",
+  "image": "../images/shirts/shirt4.jpg",
+  "price": 49.99,
+  "description": "Long sleeve Henley shirt for casual layering.",
+  "isFeatured": false,
+  "category": "shirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ece1"
+  },
+  "id": 55,
+  "name": "Basic Black T-shirt",
+  "image": "../images/tshirts/tshirt1.jpg",
+  "price": 29.99,
+  "description": "Classic black t-shirt for any casual occasion.",
+  "isFeatured": false,
+  "category": "tshirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ece2"
+  },
+  "id": 57,
+  "name": "Denim Shirt",
+  "image": "../images/shirts/shirt5.jpg",
+  "price": 59.99,
+  "description": "Classic denim shirt for a timeless look.",
+  "isFeatured": false,
+  "category": "shirts"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ece3"
+  },
+  "id": 58,
+  "name": "Slim Fit Chinos",
+  "image": "../images/jeans/jeans1.jpg",
+  "price": 59.99,
+  "description": "Slim fit chinos with a polished look.",
+  "isFeatured": false,
+  "category": "jeans"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ece4"
+  },
+  "id": 59,
+  "name": "Classic Navy Blazer",
+  "image": "../images/jackets/jacket1.jpg",
+  "price": 129.99,
+  "description": "Classic navy blazer for formal and smart-casual occasions.",
+  "isFeatured": false,
+  "category": "jackets"
+},
+{
+  "_id": {
+    "$oid": "673f79815b54cdc916b7ece5"
+  },
+  "id": 60,
+  "name": "Winter Cardigan",
+  "image": "../images/sweatshirts/sweatshirt6.jpg",
+  "price": 69.99,
+  "description": "Soft, warm winter cardigan for cozy layering.",
+  "isFeatured": false,
+  "category": "sweatshirts"
+}]

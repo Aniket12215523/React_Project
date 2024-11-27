@@ -1,20 +1,27 @@
 import React, { useState } from 'react';
-import API from '../api/axiosConfig';
-import './Register.css'; // Assuming your styles are saved here
+import { useAuth } from '../AuthContext'; 
+import './Register.css';
 
 const Register = () => {
+  const { register } = useAuth();
   const [formData, setFormData] = useState({ name: '', email: '', password: '' });
-  const [success, setSuccess] = useState('');
   const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false); // Success state
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
+    setError(''); // Reset error message
+    setSuccess(false); // Reset success message
+
     try {
-      const { data } = await API.post('/users/register', formData);
-      setSuccess(data.message);
-      setFormData({ name: '', email: '', password: '' });
+      await register(formData.name, formData.email, formData.password);
+      setSuccess(true); // Show success message on successful registration
     } catch (err) {
-      setError(err.response?.data?.message || 'Something went wrong');
+      setError(err.message);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -43,9 +50,11 @@ const Register = () => {
           onChange={(e) => setFormData({ ...formData, password: e.target.value })}
           required
         />
-        <button type="submit">Register</button>
-        {success && <p>{success}</p>}
-        {error && <p>{error}</p>}
+        <button type="submit" disabled={loading}>
+          {loading ? 'Registering...' : 'Register'}
+        </button>
+        {success && <p className="success-message">Registration successful!</p>} {/* Success message */}
+        {error && <p className="error-message">{error}</p>}
       </form>
     </div>
   );

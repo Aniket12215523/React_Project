@@ -1,4 +1,4 @@
-import React, {createContext,useContext,useState} from 'react';
+import React, { createContext, useContext, useState } from 'react';
 
 const AuthContext = createContext();
 
@@ -8,34 +8,52 @@ export const useAuth = () => {
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
-  const [users, setUsers] = useState([]); 
 
-  const login = (username, password) => {
-    const foundUser = users.find((u) => u.username === username && u.password === password);
-    if (foundUser) {
-      setUser(foundUser);
-    } else {
-      alert('Invalid credentials');
+  // Sample users data (You would normally fetch this from a database)
+  const users = [
+    { name: 'aniket', email: 'aniket@gmail.com', password: 'pass123' },
+    { name: 'dhruv', email: 'dhruv@gamil.com', password: 'pass456' },
+  ];
+
+  // Simulated login function
+  const login = async (email, password) => {
+    try {
+      // Check if the email and password match any user
+      const loggedInUser = users.find(
+        (user) => user.email === email && user.password === password
+      );
+
+      if (loggedInUser) {
+        setUser(loggedInUser);
+        localStorage.setItem('user', JSON.stringify(loggedInUser)); // Store in localStorage for persistence
+      } else {
+        throw new Error('Invalid email or password');
+      }
+    } catch (err) {
+      throw new Error(err.message || 'Login failed');
+    }
+  };
+
+  // Simulated register function (always successful)
+  const register = async (name, email, password) => {
+    try {
+      // You can optionally handle saving the data here, but we'll just show success for now
+      console.log('Registered user:', { name, email, password });
+      setUser({ name, email }); // Simulating a logged-in user after registration
+      localStorage.setItem('user', JSON.stringify({ name, email })); // Store in localStorage
+    } catch (err) {
+      throw new Error('Registration failed');
     }
   };
 
   const logout = () => {
     setUser(null);
-  };
-
-  const register = (username, password) => {
-    if (users.find((u) => u.username === username)) {
-      throw new Error('User already exists'); 
-    }
-    const newUser = { username, password };
-    setUsers((prevUsers) => [...prevUsers, newUser]);
-    setUser(newUser); 
+    localStorage.removeItem('user');
   };
 
   return (
-    <AuthContext.Provider value={{ user, login, logout, register }}>
+    <AuthContext.Provider value={{ login, logout, register, user }}>
       {children}
     </AuthContext.Provider>
   );
 };
-export default AuthContext;

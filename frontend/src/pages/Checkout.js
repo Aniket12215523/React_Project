@@ -74,7 +74,7 @@ const Checkout = () => {
     <div className="checkout-container">
       <h2>Checkout</h2>
 
-      {/* Order Summary */}
+      
       <div className="order-summary">
         <h3>Order Summary</h3>
         <ul className="order-items">

@@ -10,7 +10,6 @@ const images = [bannerImage1, bannerImage2, bannerImage3];
 const ImageSlider = () => {
   const [current, setCurrent] = useState(0);
 
-  // Use useCallback to memoize the nextSlide function
   const nextSlide = useCallback(() => setCurrent((current + 1) % images.length), [current]);
   const prevSlide = () => setCurrent((current - 1 + images.length) % images.length);
   useEffect(() => {

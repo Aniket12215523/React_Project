@@ -12,22 +12,22 @@ const outfits = [
   },
   {
     id: 2,
-    name: "Casual T-shirt",
-    image: require('../images/mens-outfits/image5.png'),
+    name: "Casual T-shirts",
+    image: require('../images/tshirts/tshirt1.jpg'),
     description: "A cool casual t-shirt for summer days.",
     route: "/tshirts" 
   },
   {
     id: 3,
-    name: "Formal Shirt",
-    image: require('../images/mens-outfits/image6.png'),
+    name: "Stylish Shirts",
+    image: require('../images/shirts/shirt1.png'),
     description: "A formal shirt for office and formal events.",
     route: "/shirts" 
   },
   {
     id: 4,
-    name: "Jacket",
-    image: require('../images/mens-outfits/image7.png'),
+    name: "Jackets",
+    image: require('../images/jackets/jacket1.png'),
     description: "A classy leather jacket to keep you warm and stylish.",
     route: "/jackets" 
   }

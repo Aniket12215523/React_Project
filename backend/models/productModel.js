@@ -10,7 +10,13 @@ const productSchema = mongoose.Schema({
   image: { type: String, required: true },
   isFeatured: { type: Boolean, default: false },
 });
-
+productSchema.set('toJSON', {
+  transform: (doc, ret) => {
+      ret.id = ret._id;  
+      delete ret._id;    
+      return ret;
+  }
+});
 const Product = mongoose.model('Product', productSchema);
 
 module.exports = Product;

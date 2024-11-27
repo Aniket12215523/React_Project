@@ -7,16 +7,16 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section">
           <h4>Contact Us</h4>
-          <p>AK CLOTHING</p>
-          <p>Email: info@aniket.com</p>
+          <p>Sapna Sopie</p>
+          <p>Email: Sapnasingh2183@gmail.com</p>
           <p>Phone: +123-456-7890</p>
         </div>
         <div className="footer-section">
           <h4>Quick Links</h4>
           <ul>
             <li><a href="#about">About Us</a></li>
-            <li><a href="#courses">Courses</a></li>
-            <li><a href="#admission">Admission</a></li>
+            <li><a href="#courses">Best Seller</a></li>
+            <li><a href="#admission">All Products</a></li>
           </ul>
         </div>
         <div className="footer-section">

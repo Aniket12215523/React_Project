@@ -15,7 +15,6 @@ const ProductCard = ({ product }) => {
   );
 };
 
-// ProductList component to display all products of a specific category
 const ProductList = ({ products }) => {
   return (
     <div className="product-list">
